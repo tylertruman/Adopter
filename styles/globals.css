@@ -17,10 +17,13 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
     color: white;
-    background: black;
+    /* background: white; */
+    background-image: url("../assets/AdopterHeroImg.jpg");
+    background-position: center;
+    background-size: cover;
   }
 }
